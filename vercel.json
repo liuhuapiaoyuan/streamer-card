@@ -1,5 +1,7 @@
 { 
     "installCommand": "npm install",
+     "buildCommand": "npm run build",
+    "devCommand": "run run dev",
   "builds": [
     { "src": "src/app.ts", "use": "@vercel/node" }
   ],
